@@ -7,14 +7,19 @@
  */
 int main(void)
 {
-	int digit;
+    int digit;
 
-	for (digit = 0; digit <= 9; digit++)
-	{
-		printf("%d", digit);
-	}
+    for (digit = 0; digit <= 9; digit++)
+    {
+        if (digit < 9)
+        {
+            printf("%d", digit);
+        }
+        else
+        {
+            printf("%d\n", digit);
+        }
+    }
 
-	putchar('\n');
-
-	return (0);
+    return (0);
 }
