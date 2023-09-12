@@ -1,15 +1,25 @@
 #include "main.h"
 
 /**
- * add - adds tow integers and returns the result
- *
- * @a: first integer to be added
- * @b: second integer to be added
- * Return: the result of adding two integers
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-	int ans = a + b;
+	char ch;
+	int i;
 
-	return (ans);
+	i = 0;
+
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
