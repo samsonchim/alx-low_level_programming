@@ -1,1 +1,2 @@
-This a simple README, will edit later
+#0x07 C - Even more pointers, arrays and strings
+This contains all the tasks for the above mentioned project
